@@ -1,0 +1,136 @@
+body{
+    background: rgba(15, 15, 226, 0.397);
+    font: normal 12pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+h1, #msg, #saudacao {
+    text-align: center;
+    color: rgb(202, 199, 199);
+    padding: 8px;
+}
+
+section{
+ background: rgba(255, 255, 255, 0.452);
+ border-radius: 10px;
+ padding: 5px;
+ width: 600px;
+ margin: auto;
+ box-shadow: 5px 5px 10px rgb( 0, 0, 0, 0.363);
+
+}
+
+#imagem{
+    padding-left: 80px;
+}
+
+/*relogio analogico*/
+#relogio{
+    position: relative;
+    top: 111px;
+    margin: auto;
+    /*para tornar a altura e a largura responsivas*/
+    background-size: 100%;
+}
+.number {
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    width: 91%;
+    height: 444px;
+    text-align: center;
+    padding: 10px;
+}
+.number-1 {
+    transform: rotate(30deg);
+}
+
+.number-2 {
+    transform: rotate(60deg);
+}
+
+.number-3 {
+    transform: rotate(90deg);
+}
+
+.number-4 {
+    transform: rotate(120deg);
+}
+
+.number-5 {
+    transform: rotate(150deg);
+}
+
+.number-6 {
+    transform: rotate(180deg);
+}
+
+.number-7 {
+    transform: rotate(210deg);
+}
+
+.number-8 {
+    transform: rotate(240deg);
+}
+
+.number-9 {
+    transform: rotate(270deg);
+}
+
+.number-10 {
+    transform: rotate(300deg);
+}
+
+.number-11 {
+    transform: rotate(330deg);
+}
+
+.number-12 {
+    transform: rotate(360deg);
+}
+
+  
+#hour, #minute, #second {
+    position: absolute;
+    left: 48%;
+    background-color: black;
+    bottom: -243px;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+  
+#hour {
+    width: 2px;
+    height: 196px;
+    z-index: 1;
+    border: 1px solid gray;
+}
+  
+#minute {
+    width: 2px;
+    height: 155px;
+    z-index: 2;
+    border: 1px solid gray;
+}
+  
+#second {
+    width: 1px;
+    height: 130px;
+    z-index: 3;
+    background-color: red;
+}
+
+  
+
+/*Rodape*/
+
+footer{
+    font: italic;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
