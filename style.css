@@ -3,15 +3,24 @@ body{
     font: normal 12pt Arial;
 }
 
+
 header{
     color: white;
     text-align: center;
 }
 
+#msg{
+    margin-bottom: 396px;
+}
+
 h1, #msg, #saudacao {
     text-align: center;
-    color: rgb(202, 199, 199);
-    padding: 8px;
+    color: rgba(202, 199, 199, 0.484);
+    padding: 20px;
+}
+
+#saudacao{
+    padding: 50px;
 }
 
 section{
@@ -24,15 +33,12 @@ section{
 
 }
 
-#imagem{
-    padding-left: 80px;
-}
-
 /*relogio analogico*/
+
 #relogio{
     position: relative;
-    top: 111px;
-    margin: auto;
+    top: 21px;
+    margin-top: 30px;
     /*para tornar a altura e a largura responsivas*/
     background-size: 100%;
 }
@@ -40,10 +46,10 @@ section{
     font-size: 1.2rem;
     font-weight: 600;
     position: absolute;
-    width: 91%;
-    height: 444px;
+    width: 87%;
+    height: 450px;
     text-align: center;
-    padding: 10px;
+    padding: 29px;
 }
 .number-1 {
     transform: rotate(30deg);
@@ -98,21 +104,21 @@ section{
     position: absolute;
     left: 48%;
     background-color: black;
-    bottom: -243px;
+    bottom: -257px;
     border-radius: 10px;
     transform-origin: bottom;
 }
   
 #hour {
     width: 2px;
-    height: 196px;
+    height: 131px;
     z-index: 1;
     border: 1px solid gray;
 }
   
 #minute {
     width: 2px;
-    height: 155px;
+    height: 185px;
     z-index: 2;
     border: 1px solid gray;
 }

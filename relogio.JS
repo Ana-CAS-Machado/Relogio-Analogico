@@ -6,21 +6,18 @@ function carregar(){
     var data = new Date();
     var hora = data.getHours();
     var min = data.getMinutes();
-    //var hora = 0
+    //var hora = 18
 
     msg.innerHTML = `Agora são ${hora} horas e ${min} minutos.`
     if (hora >= 5 && hora <= 12){
-        img.src = 'manha.png'
         document.body.style.background = '#e6e4e7'
         ltr.innerHTML = 'Bom dia'
         
     } else if(hora >=12 && hora <= 18){
         ltr.innerHTML = 'Boa Tarde'
-        img.src = 'tarde.png'
         document.body.style.background = '#dae1e9'
     }else{
         ltr.innerHTML = 'Boa Noite'
-        img.src = 'noite.png'
         document.body.style.background = '#325279'
         
     }
